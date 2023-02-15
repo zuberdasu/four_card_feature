@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+header {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+header p {
+  color: #b2b3b6;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 200;
+  color: #b4b3b7;
+  letter-spacing: 0.17px;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #4d4f62;
+  letter-spacing: 0.17px;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  margin-bottom: 7rem;
+  padding: 1 rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: 0 5px 5px #dde5f1;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.card p {
+  color: #b4b3b7;
+}
+
+.supervisor {
+  border-top: solid 5px #00c8c8;
+}
+
+.teambuilder {
+  border-top: solid 5px #ea5454;
+}
+
+.karma {
+  border-top: solid 5px #fdbf00;
+}
+
+.calculator {
+  border-top: solid 5px #549ef2;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
